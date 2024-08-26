@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    background-color: #0b500b; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    border: 2px solid #fff;
+}
+
+#pauseButton {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
