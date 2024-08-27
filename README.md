@@ -1,4 +1,4 @@
-<h1 align="left">Home page created in HTML and CSS</h1>
+<h1 align="left">Ping Pong Game using Java Script, CSS and HTML</h1>
 
 ###
 
